@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #000000;
+  color: #f5f5f5;
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+.hairline-card {
+  background: linear-gradient(180deg, rgba(16,16,16,0.92) 0%, rgba(8,8,8,0.96) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: border-color 0.3s ease;
+}
+.hairline-card:hover {
+  border-color: rgba(255, 255, 255, 0.35);
+}
